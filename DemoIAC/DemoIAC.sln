@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34316.72
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoIAC.Server", "DemoIAC.Server\DemoIAC.Server.csproj", "{51B839D3-F1AC-4372-B061-03F38292A73D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoIAC.Server", "DemoIAC.Server\DemoIAC.Server.csproj", "{51B839D3-F1AC-4372-B061-03F38292A73D}"
 EndProject
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "demoiac.client", "demoiac.client\demoiac.client.esproj", "{A260917E-7B6F-4968-90F4-D9746376025E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoIAC.Tools", "DemoIAC.Tools\DemoIAC.Tools.csproj", "{C1EC3DC8-2345-4F70-9999-DEFF06A760BF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +25,10 @@ Global
 		{A260917E-7B6F-4968-90F4-D9746376025E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A260917E-7B6F-4968-90F4-D9746376025E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A260917E-7B6F-4968-90F4-D9746376025E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{C1EC3DC8-2345-4F70-9999-DEFF06A760BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1EC3DC8-2345-4F70-9999-DEFF06A760BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1EC3DC8-2345-4F70-9999-DEFF06A760BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1EC3DC8-2345-4F70-9999-DEFF06A760BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

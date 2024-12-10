@@ -1,0 +1,15 @@
+- name: Configurer SQL Server
+  hosts: localhost
+  tasks:
+    - name: Installer sqlcmd (outil en ligne de commande SQL Server)
+      apt:
+        name: mssql-tools
+        state: present
+
+    - name: Créer une base de données
+      shell: |
+        /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P 'YourStrong!Password' -Q "CREATE DATABASE DemoIACDB"
+
+    - name: Créer un utilisateur
+      shell: |
+        /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P 'YourStrong!Password' -Q "CREATE LOGIN DemoUser WITH PASSWORD = 'UserStrong!Password'"
