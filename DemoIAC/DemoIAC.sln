@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoIAC.Server", "DemoIAC.Server\DemoIAC.Server.csproj", "{51B839D3-F1AC-4372-B061-03F38292A73D}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "demoiac.client", "demoiac.client\demoiac.client.esproj", "{A260917E-7B6F-4968-90F4-D9746376025E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51B839D3-F1AC-4372-B061-03F38292A73D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51B839D3-F1AC-4372-B061-03F38292A73D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51B839D3-F1AC-4372-B061-03F38292A73D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51B839D3-F1AC-4372-B061-03F38292A73D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A260917E-7B6F-4968-90F4-D9746376025E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A260917E-7B6F-4968-90F4-D9746376025E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A260917E-7B6F-4968-90F4-D9746376025E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A260917E-7B6F-4968-90F4-D9746376025E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A260917E-7B6F-4968-90F4-D9746376025E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A260917E-7B6F-4968-90F4-D9746376025E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B4764552-A5BD-465C-881B-97C6CAE877F0}
+	EndGlobalSection
+EndGlobal
